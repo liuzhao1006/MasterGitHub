@@ -12,4 +12,8 @@ public class BaseActivity extends AppCompatActivity {
     protected void showToast(){
         Toast.makeText(this,"我是老爹",Toast.LENGTH_SHORT).show();
     }
+
+    protected void startActivity(){
+
+    }
 }
